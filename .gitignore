@@ -217,9 +217,19 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Never upload these
+# Credentials & Configurations
 api.txt
 config.json
-*.pyc
+
+# Python artifacts
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 .env
+.venv/
+venv/
+
+# IDE files
+.vscode/
+.idea/
