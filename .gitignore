@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Never upload these
+api.txt
+config.json
+*.pyc
+__pycache__/
+.env
